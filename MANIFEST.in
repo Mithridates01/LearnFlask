@@ -1,5 +1,7 @@
 graft flaskr/templates
 graft flaskr/static
+graft flaskr/tests
+graft flaskr/database
 
-include flaskr/schema.sql
-include flaskr/flaskr.sql
+include flaskr/database/schema.sql
+include flaskr/database/flaskr.sql
