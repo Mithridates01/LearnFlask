@@ -14,8 +14,8 @@
   ** Notes:
     *** Problems
       This will be a simple MVP and will have many issue that will cause    significant refactoring down the road.
-        - Schools have differing number of periods that differ in time amount. For simplicity I am making all schools have stand set of periods.
+        - Schools have differing number of periods that differ in time amount. For simplicity I am making all schools have standard set of periods.
         -
     *** Architecture decisions
-      - Python 3 used for increase future proofing and additional features. Assumption is that I am starting out not in an existing Python > 3 code base
+      - DB designed for flexibility to make easy to add features
       - 
